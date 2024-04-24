@@ -111,7 +111,7 @@ namespace DurableFunctionOrchestratorExample
         public OrchestrationResultModel Reinstate([ActivityTrigger] OrchestrationActionModel orchestrationAction)
         {
             //Call your orchestration functions here to create your instances and generate a url for a user to log in to
-            return orchestrationAction.CreateSuccessResult(new Uri("http://mycoolwebsite.net"));
+            return orchestrationAction.CreateSuccessResult(new Uri("https://rikatec.co.za/vehicle-info-management"));
         }
 
         ///<summary>
@@ -122,7 +122,7 @@ namespace DurableFunctionOrchestratorExample
         public OrchestrationResultModel Suspend([ActivityTrigger] OrchestrationActionModel orchestrationAction)
         {
             //Call your orchestration functions here to create your instances and generate a url for a user to log in to
-            return orchestrationAction.CreateSuccessResult(new Uri("http://mycoolwebsite.net"));
+            return orchestrationAction.CreateSuccessResult(new Uri("https://rikatec.co.za/vehicle-info-management"));
         }
 
         ///<summary>
@@ -134,7 +134,7 @@ namespace DurableFunctionOrchestratorExample
         public OrchestrationResultModel Update([ActivityTrigger] OrchestrationActionModel orchestrationAction)
         {
             //Call your orchestration functions here to create your instances and generate a url for a user to log in to
-            return orchestrationAction.CreateSuccessResult(new Uri("http://mycoolwebsite.net"));
+            return orchestrationAction.CreateSuccessResult(new Uri("https://rikatec.co.za/vehicle-info-management"));
         }
 
         ///<summary>
